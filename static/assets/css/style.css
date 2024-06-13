@@ -12,6 +12,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
   background-color: #272829;
+  
 }
 .col-lg-6 {
   flex: 0 0 auto;
@@ -207,9 +208,10 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   background: url("../img/BG.jpg") top center;
   background-size: cover;
+  margin-top: -10px;
 }
 
 #hero:before {
@@ -221,6 +223,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   z-index: 1;
+  height: 110vh;
 }
 
 #hero .hero-container {
